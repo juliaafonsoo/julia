@@ -11,12 +11,14 @@
     "nome_pai": [],
     "nome_mae": [],
     "estado_civil": [],
+
     "telefone": [],
     "email": [],
     "telefone_emergencia": [],
     "tipo_contato_emergencia": []
     "endereco_completo": []
     "crm": [],
+
     
     "data_formacao": [],
     "faculdade_formacao": []
