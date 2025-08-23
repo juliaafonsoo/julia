@@ -4,1967 +4,673 @@
       "indice_bloco": 0,
       "nome": "Anna Julia Del Piero Marques",
       "cpf": "14763261770",
-      "resultado_regex": {
-        "rg": [
-          "3128508"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "08/02/2008"
-        ],
-        "endereco_nascimento": [
-          "Cuiabá - MT"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 1,
       "nome": "ALLANA RIBEIRO MARQUETTI SPADETO",
       "cpf": "16635636757",
-      "resultado_regex": {
-        "rg": [
-          "3767770"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "VITÓRIA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "CASADO"
+      ]
     },
     {
       "indice_bloco": 2,
       "nome": "Bárbara Grillo Bourguignon",
       "cpf": "15440210709",
-      "resultado_regex": {
-        "rg": [
-          "3266867"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "18/03/2019"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 3,
       "nome": "Déborah Dellabianca Bento",
       "cpf": "14428967799",
-      "resultado_regex": {
-        "rg": [
-          "3225695"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "19/10/2018"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 4,
       "nome": "Eduarda Santos Souza",
       "cpf": "11364528770",
-      "resultado_regex": {
-        "rg": [
-          "4089393"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "12/01/2016"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 5,
       "nome": "Izabelly Coutinho Sperandio.",
       "cpf": "13127256728",
-      "resultado_regex": {
-        "rg": [
-          "3862839"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira."
+      ]
     },
     {
       "indice_bloco": 6,
       "nome": "Nayara Viale Vargas",
       "cpf": "12466602709",
-      "resultado_regex": {
-        "rg": [
-          "3057557"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Governador Valadares - MI"
-        ]
-      }
+      "resultado_regex": [
+        "Casada"
+      ]
     },
     {
       "indice_bloco": 7,
       "nome": "Alana Silva Gava",
       "cpf": "15478406767",
-      "resultado_regex": {
-        "rg": [
-          "3438029"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "06/05/2015"
-        ],
-        "endereco_nascimento": [
-          "Rio Bananal - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 8,
       "nome": "MATHEUS COSTA ESPERIDON",
       "cpf": "11918228779",
-      "resultado_regex": {
-        "rg": [
-          "3894867"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "SOLTEIRO"
+      ]
     },
     {
       "indice_bloco": 9,
       "nome": "Mariana Santos Lorencini",
       "cpf": "12826093789",
-      "resultado_regex": {
-        "rg": [
-          "3489266"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "11/02/2022"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 10,
       "nome": "ARTHUR SILVA SECCHIN",
       "cpf": "14547878722",
-      "resultado_regex": {
-        "rg": [
-          "4128126"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "18/05/2016"
-        ],
-        "endereco_nascimento": [
-          "VILA VELHA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "SOLTEIRO"
+      ]
     },
     {
       "indice_bloco": 11,
       "nome": "Diego Seguchi Orlette",
       "cpf": "00022664238",
-      "resultado_regex": {
-        "rg": [
-          "1057113"
-        ],
-        "uf_ci": [
-          "RO"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "16/04/2007"
-        ],
-        "endereco_nascimento": [
-          "Ouro Preto d'Oeste - RO"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 12,
       "nome": "Déborah Villarins Pedrosa",
       "cpf": "15090613710",
-      "resultado_regex": {
-        "rg": [
-          "3375208"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SESP"
-        ],
-        "data_emissao_ci": [
-          "08/06/2021"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 13,
       "nome": "Alice Callegari Amaral Araujo",
       "cpf": "12806903726",
-      "resultado_regex": {
-        "rg": [
-          "3314395"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "02/03/2011"
-        ],
-        "endereco_nascimento": [
-          "Mimoso do Sul - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 14,
       "nome": "Alana Cupertino Simora",
       "cpf": "14626045790",
-      "resultado_regex": {
-        "rg": [
-          "3303637"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "17/07/2009"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 15,
       "nome": "Heitor Bruno Fialho do Carmo.",
       "cpf": "10830732659",
-      "resultado_regex": {
-        "rg": [
-          "18996088"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Mantena - MG"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro."
+      ]
     },
     {
       "indice_bloco": 16,
       "nome": "Hugo Pessotti Aborghetti",
       "cpf": "14550923717",
-      "resultado_regex": {
-        "rg": [
-          "3373372"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "28/12/2018"
-        ],
-        "endereco_nascimento": [
-          "Linhares - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 17,
       "nome": "Camila Taliule",
       "cpf": "11026948789",
-      "resultado_regex": {
-        "rg": [
-          "2342011"
-        ],
-        "uf_ci": [
-          "ÉS"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "11/03/2019"
-        ],
-        "endereco_nascimento": [
-          "São Mateus - ÉS"
-        ]
-      }
+      "resultado_regex": [
+        "solteira"
+      ]
     },
     {
       "indice_bloco": 18,
       "nome": "Franco Luís Salume Costa",
       "cpf": "12293355799",
-      "resultado_regex": {
-        "rg": [
-          "2209699"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 19,
       "nome": "Nikhole Oliveira",
       "cpf": "14883639789",
-      "resultado_regex": {
-        "rg": [
-          "3432904"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "20/09/2010"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 20,
       "nome": "Carolynne Ferreira Machado",
       "cpf": "12717656677",
-      "resultado_regex": {
-        "rg": [
-          "11"
-        ],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "01/06/2010"
-        ],
-        "endereco_nascimento": [
-          "Aimorés"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 21,
       "nome": "MÁRCIA CRISTINA SOUZA SILVA",
       "cpf": "06849516736",
-      "resultado_regex": {
-        "rg": [
-          "1321064"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "30/08/1993"
-        ],
-        "endereco_nascimento": [
-          "MONTANHA - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 22,
       "nome": "Aline Fonseca Sandrini Ernandes",
       "cpf": "12461429707",
-      "resultado_regex": {
-        "rg": [
-          "22270864"
-        ],
-        "uf_ci": [
-          "RJ"
-        ],
-        "orgao_emissor_ci": [
-          "DIC"
-        ],
-        "data_emissao_ci": [
-          "15/12/2015"
-        ],
-        "endereco_nascimento": [
-          "Itaperuna - RJ"
-        ]
-      }
+      "resultado_regex": [
+        "casada"
+      ]
     },
     {
       "indice_bloco": 23,
       "nome": "Bianca Paola da Silva Cea",
       "cpf": "12775083722",
-      "resultado_regex": {
-        "rg": [
-          "367018731"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "SP - SP"
-        ]
-      }
+      "resultado_regex": [
+        "solteira"
+      ]
     },
     {
       "indice_bloco": 24,
       "nome": "Germano Gianizeli Paganotti",
       "cpf": "12244399702",
-      "resultado_regex": {
-        "rg": [
-          "3630970"
-        ],
-        "uf_ci": [
-          "ÉS"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "13/03/2017"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 25,
       "nome": "Júlia Amaral Soares Pacheco",
       "cpf": "11347868755",
-      "resultado_regex": {
-        "rg": [
-          "3726925"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "16/06/2018"
-        ],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 26,
       "nome": "Lucas Oliveira Athayde Arleu",
       "cpf": "14915038742",
-      "resultado_regex": {
-        "rg": [
-          "3499693"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Casado"
+      ]
     },
     {
       "indice_bloco": 27,
       "nome": "Eduarda Santos Souza",
       "cpf": "11364528770",
-      "resultado_regex": {
-        "rg": [
-          "4089393"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "12/01/2016"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 28,
       "nome": "VICTOR HUGO RIBEIRO SIMOR",
       "cpf": "CPF nao detectado",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "VITÓRIA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "SOLTEIRO"
+      ]
     },
     {
       "indice_bloco": 29,
       "nome": "Denis Soprani Pereira",
       "cpf": "05837008705",
-      "resultado_regex": {
-        "rg": [
-          "1982060"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Vila Velha - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 30,
       "nome": "Amanda Cavalcante Lozer",
       "cpf": "14222066702",
-      "resultado_regex": {
-        "rg": [
-          "3738425"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "21/02/2013"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 31,
       "nome": "FELIPE FERNANDES MOÇA MATOS",
       "cpf": "16066767763",
-      "resultado_regex": {
-        "rg": [
-          "3187921"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "31/07/2008"
-        ],
-        "endereco_nascimento": [
-          "vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "casado"
+      ]
     },
     {
       "indice_bloco": 32,
       "nome": "Emanuella Barboza Prata",
       "cpf": "14050954745",
-      "resultado_regex": {
-        "rg": [
-          "2090968"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "16/06/2014"
-        ],
-        "endereco_nascimento": [
-          "Cachoeiro de Itapemirim - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 33,
       "nome": "Vinícius Cypreste Santos",
       "cpf": "16207078705",
-      "resultado_regex": {
-        "rg": [
-          "4030805"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "11/03/2024"
-        ],
-        "endereco_nascimento": [
-          "Vitória, Espirito Santo"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 34,
       "nome": "Fernanda Bulhões Pagotto Pádua",
       "cpf": "13524123732",
-      "resultado_regex": {
-        "rg": [
-          "3340598"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "06/06/2019"
-        ],
-        "endereco_nascimento": [
-          "Afonso Cláudio"
-        ]
-      }
+      "resultado_regex": [
+        "solteira"
+      ]
     },
     {
       "indice_bloco": 35,
       "nome": "Aline Baffa de Alencar",
       "cpf": "12453082701",
-      "resultado_regex": {
-        "rg": [
-          "45989365"
-        ],
-        "uf_ci": [
-          "SP"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "17/07/2012"
-        ],
-        "endereco_nascimento": [
-          "SÃO PAULO - SP"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 36,
       "nome": "Angelina Brinati Torres Oliveira",
       "cpf": "12765598797",
-      "resultado_regex": {
-        "rg": [
-          "1517462"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "13/11/2009"
-        ],
-        "endereco_nascimento": [
-          "Vargem Alta – Espírito Santo"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 37,
       "nome": "Pietra Sardinha Silvestre Mousinho Donato",
       "cpf": "15290402721",
-      "resultado_regex": {
-        "rg": [
-          "152904027"
-        ],
-        "uf_ci": [
-          "21"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "27/09/2024"
-        ],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 38,
       "nome": "Júlia Brandão de Carvalho",
       "cpf": "12952166633",
-      "resultado_regex": {
-        "rg": [
-          "19277476"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 39,
       "nome": "Gustavo Viana santana",
       "cpf": "03168014532",
-      "resultado_regex": {
-        "rg": [
-          "1153635488"
-        ],
-        "uf_ci": [
-          "BA"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "05/09/2014"
-        ],
-        "endereco_nascimento": [
-          "itamaraju - BA"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 40,
       "nome": "Lucas Lobo de Queiroz",
       "cpf": "07632328661",
-      "resultado_regex": {
-        "rg": [
-          "3536653"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 41,
       "nome": "GIULIANA VIEIRA PRETTI",
       "cpf": "05931580751",
-      "resultado_regex": {
-        "rg": [
-          "3304588"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "20/07/2009"
-        ],
-        "endereco_nascimento": [
-          "VITÓRIA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "SOLTEIRA"
+      ]
     },
     {
       "indice_bloco": 42,
       "nome": "BRENDA DE CARVALHO CANDIOTTO",
       "cpf": "05740521785",
-      "resultado_regex": {
-        "rg": [
-          "1840903"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "31/05/2000"
-        ],
-        "endereco_nascimento": [
-          "BELO HORIZONTE - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 43,
       "nome": "Leticia Viana Vaz",
       "cpf": "06890931602",
-      "resultado_regex": {
-        "rg": [
-          "18789353"
-        ],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "PCMG"
-        ],
-        "data_emissao_ci": [
-          "30/05/2012"
-        ],
-        "endereco_nascimento": [
-          "Muriaé - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 44,
       "nome": "Allana Frederich Pinto",
       "cpf": "15290290745",
-      "resultado_regex": {
-        "rg": [
-          "3910493"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "16/01/2017"
-        ],
-        "endereco_nascimento": [
-          "Aimorés - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 45,
       "nome": "Ana Cláudia Barbosa de Sousa",
       "cpf": "14447944774",
-      "resultado_regex": {
-        "rg": [
-          "18949119"
-        ],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "28/12/2010"
-        ],
-        "endereco_nascimento": [
-          "baixo Guandu - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 46,
       "nome": "ELKJAER LINIKER LOURENÇO",
       "cpf": "12313933784",
-      "resultado_regex": {
-        "rg": [
-          "3533495"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SESP"
-        ],
-        "data_emissao_ci": [
-          "10/07/2012"
-        ],
-        "endereco_nascimento": [
-          "VITÓRIA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "CASADO"
+      ]
     },
     {
       "indice_bloco": 47,
       "nome": "Ana Paula Laignier Costa",
       "cpf": "15470905705",
-      "resultado_regex": {
-        "rg": [
-          "3438095"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "24/08/2010"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 48,
       "nome": "Alexandre Gabriel Bonela",
       "cpf": "18629341777",
-      "resultado_regex": {
-        "rg": [
-          "4029450"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "01/10/2015"
-        ],
-        "endereco_nascimento": [
-          "Castelo - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 49,
       "nome": "Felipe Ribeiro do Val Tommasi Silva",
       "cpf": "15467657780",
-      "resultado_regex": {
-        "rg": [
-          "3462456"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "18/10/2010"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 50,
       "nome": "Bruna Franzotti",
       "cpf": "12798471745",
-      "resultado_regex": {
-        "rg": [
-          "2289125"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "27/06/2018"
-        ],
-        "endereco_nascimento": [
-          "Niterói - RJ"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 51,
       "nome": "Amanda Rodrigues Lessa",
       "cpf": "14788588773",
-      "resultado_regex": {
-        "rg": [
-          "3095287"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "15/01/2015"
-        ],
-        "endereco_nascimento": [
-          "Vila Velha - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 52,
       "nome": "Heitor Fossi de Abreu",
       "cpf": "14018840756",
-      "resultado_regex": {
-        "rg": [
-          "3280277"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "23/08/2010"
-        ],
-        "endereco_nascimento": [
-          "Cachoeiro de Itapemirim"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 53,
       "nome": "Nathalia Frinhani Bernardineli",
       "cpf": "18010328740",
-      "resultado_regex": {
-        "rg": [
-          "18010328740"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "01/10/2024"
-        ],
-        "endereco_nascimento": [
-          "Linhares"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 54,
       "nome": "Allana Gomes Alexandre",
       "cpf": "10233883673",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "10/04/2014"
-        ],
-        "endereco_nascimento": [
-          "Mantena"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 55,
       "nome": "Marina Bittencourt Narciso",
       "cpf": "15097168747",
-      "resultado_regex": {
-        "rg": [
-          "3497147"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "01/12/2020"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 56,
       "nome": "Fernanda Reisen Vasconcelos",
       "cpf": "13252088762",
-      "resultado_regex": {
-        "rg": [
-          "3061130"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "03/07/2018"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 57,
       "nome": "Janinne Fachetti Rocha",
       "cpf": "01338343521",
-      "resultado_regex": {
-        "rg": [
-          "1137307722"
-        ],
-        "uf_ci": [
-          "BA"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "20/07/2015"
-        ],
-        "endereco_nascimento": [
-          "Teixeira de Freitas - BA"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 58,
       "nome": "Fernanda Egashira Era",
       "cpf": "17401409747",
-      "resultado_regex": {
-        "rg": [
-          "3378618"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "16/03/2010"
-        ],
-        "endereco_nascimento": [
-          "São Caetano do Sul - SP"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 59,
       "nome": "ESTER QUEIROZ GALAVOTTI COSTA",
       "cpf": "17489972701",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "LINHARES - ES"
-        ]
-      }
+      "resultado_regex": [
+        "CASADA"
+      ]
     },
     {
       "indice_bloco": 60,
       "nome": "Luana Caetano Barbosa",
       "cpf": "12308622695",
-      "resultado_regex": {
-        "rg": [
-          "14936547"
-        ],
-        "uf_ci": [
-          "MI"
-        ],
-        "orgao_emissor_ci": [
-          "DETRAN"
-        ],
-        "data_emissao_ci": [
-          "24/10/2023"
-        ],
-        "endereco_nascimento": [
-          "Caratinga - MI"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 61,
       "nome": "Cibely Nascimento Arcari",
       "cpf": "11507408765",
-      "resultado_regex": {
-        "rg": [
-          "18941115"
-        ],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "PCMG"
-        ],
-        "data_emissao_ci": [
-          "21/12/2010"
-        ],
-        "endereco_nascimento": [
-          "são Gabriel da palha - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 62,
       "nome": "LUCIANO ALVES DA SILVA",
       "cpf": "10466968744",
-      "resultado_regex": {
-        "rg": [
-          "2322727"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "MANTENA - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 63,
       "nome": "Carla Campos Miranda",
       "cpf": "14244064710",
-      "resultado_regex": {
-        "rg": [
-          "3207338"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "21/02/2011"
-        ],
-        "endereco_nascimento": [
-          "Montanha - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 64,
       "nome": "LUCILA MARIA DE ALMEIDA LOPES",
       "cpf": "10432100750",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "12/01/2008"
-        ],
-        "endereco_nascimento": [
-          "VITÓRIA"
-        ]
-      }
+      "resultado_regex": [
+        "SOLTEIRA"
+      ]
     },
     {
       "indice_bloco": 65,
       "nome": "NOME nao detectado",
       "cpf": "10402541790",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Vila Velha - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 66,
       "nome": "Bruno de Sousa Varanda",
       "cpf": "13223539727",
-      "resultado_regex": {
-        "rg": [
-          "2319661"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "26/05/2006"
-        ],
-        "endereco_nascimento": [
-          "Eunápolis - BA"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 67,
       "nome": "FELLIPE SANT'ANNA ALMADA",
       "cpf": "11284771733",
-      "resultado_regex": {
-        "rg": [
-          "2057415"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "02/08/2014"
-        ],
-        "endereco_nascimento": [
-          "VILA VELHA - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 68,
       "nome": "Camila Tripodi Pereira Nogueira",
       "cpf": "04764288583",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 69,
       "nome": "MARIANA REIS ROSA",
       "cpf": "15891478714",
-      "resultado_regex": {
-        "rg": [
-          "3884923"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "19/02/2019"
-        ],
-        "endereco_nascimento": [
-          "VITÓRIA - ES"
-        ]
-      }
+      "resultado_regex": [
+        "SOLTEIRA"
+      ]
     },
     {
       "indice_bloco": 70,
       "nome": "Eduarda Santos Souza",
       "cpf": "11364528770",
-      "resultado_regex": {
-        "rg": [
-          "4089393"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "12/01/2016"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 71,
       "nome": "DANDHARA ROCHA DA SILVA PELANDA",
       "cpf": "14906125727",
-      "resultado_regex": {
-        "rg": [
-          "3461728"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "22/10/2010"
-        ],
-        "endereco_nascimento": [
-          "VITORIA - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 72,
       "nome": "Fernando Mognato de Jesus",
       "cpf": "11431029750",
-      "resultado_regex": {
-        "rg": [
-          "3353996"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "10/12/2009"
-        ],
-        "endereco_nascimento": [
-          "Vitoria"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 73,
       "nome": "Isabela Bernardino Freire",
       "cpf": "13492218725",
-      "resultado_regex": {
-        "rg": [
-          "3189341"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 74,
       "nome": "Luane Scherrer Juliatti",
       "cpf": "09917186743",
-      "resultado_regex": {
-        "rg": [
-          "3667893"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "06/06/2015"
-        ],
-        "endereco_nascimento": [
-          "Lisboa"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 75,
       "nome": "FRANCISCO PINHEIRO GOMES",
       "cpf": "18003244722",
-      "resultado_regex": {
-        "rg": [
-          "3237249"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "SOLTEIRO"
+      ]
     },
     {
       "indice_bloco": 76,
       "nome": "FRANCISCO DE OLIVEIRA QUEIROGA",
       "cpf": "18331753798",
-      "resultado_regex": {
-        "rg": [
-          "3955772"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "24/01/2017"
-        ],
-        "endereco_nascimento": [
-          "VITORIA - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 77,
       "nome": "Tayane costa Santiago",
       "cpf": "03083626592",
-      "resultado_regex": {
-        "rg": [
-          "1125330279"
-        ],
-        "uf_ci": [
-          "BA"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "09/10/2019"
-        ],
-        "endereco_nascimento": [
-          "Salvador - BA"
-        ]
-      }
+      "resultado_regex": [
+        "casada"
+      ]
     },
     {
       "indice_bloco": 78,
       "nome": "André Luiz Castelan da Silva",
       "cpf": "05749521796",
-      "resultado_regex": {
-        "rg": [
-          "2051814"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "20/08/2010"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 79,
       "nome": "Bernardo Araújo",
       "cpf": "15438184712",
-      "resultado_regex": {
-        "rg": [
-          "3540400"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "22/06/2011"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "solteiro"
+      ]
     },
     {
       "indice_bloco": 80,
       "nome": "Ana Caroline Machado Bergami",
       "cpf": "CPF nao detectado",
-      "resultado_regex": {
-        "rg": [
-          "3657050"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "13/06/2021"
-        ],
-        "endereco_nascimento": [
-          "Linhares - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 81,
       "nome": "Sarah Prest Siquara Vieira",
       "cpf": "16133138700",
-      "resultado_regex": {
-        "rg": [
-          "3553566"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 82,
       "nome": "32, 22/03/2022] Dr Andre Luis: - Nome do profissional: André Luis Lopes Costa",
       "cpf": "12315847770",
-      "resultado_regex": {
-        "rg": [
-          "3152072"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "14/11/2013"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 83,
       "nome": "GABRIEL EURICO ALVES DE CASTRO",
       "cpf": "11760717770",
-      "resultado_regex": {
-        "rg": [
-          "1997"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "24/01/2011"
-        ],
-        "endereco_nascimento": [
-          "ALEXÂNIA - GO"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 84,
       "nome": "Raul de Paula Resende Bicalho",
       "cpf": "14747337784",
-      "resultado_regex": {
-        "rg": [
-          "3733240"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "08/10/2013"
-        ],
-        "endereco_nascimento": [
-          "Divinópolis - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 85,
       "nome": "Bárbara Beatriz Amaral Rodrigues",
       "cpf": "15131520762",
-      "resultado_regex": {
-        "rg": [
-          "3353835"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "solteira"
+      ]
     },
     {
       "indice_bloco": 86,
       "nome": "Amanda Silva Guimarães",
       "cpf": "13570086780",
-      "resultado_regex": {
-        "rg": [
-          "3217719"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "26/02/2018"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 87,
       "nome": "André Silveira da Rocha",
       "cpf": "13196893707",
-      "resultado_regex": {
-        "rg": [
-          "2335346"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "06/05/1996"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 88,
       "nome": "Natália Vicentini Damasceno",
       "cpf": "16165280790",
-      "resultado_regex": {
-        "rg": [
-          "3592417"
-        ],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 89,
       "nome": "Flávia Lima Peixoto Costa",
       "cpf": "09229198790",
-      "resultado_regex": {
-        "rg": [
-          "1841910"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "17/10/2018"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 90,
       "nome": "Valéria Lopes Cupertino",
       "cpf": "05801708601",
-      "resultado_regex": {
-        "rg": [
-          "12861906"
-        ],
-        "uf_ci": [
-          "MG"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "Coronel Fabriciano - MG"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 91,
       "nome": "Ana Carolina De Biase Rodrigues de Jesus",
       "cpf": "13102827294",
-      "resultado_regex": {
-        "rg": [
-          "2200783"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SSP"
-        ],
-        "data_emissao_ci": [
-          "15/01/2019"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteira"
+      ]
     },
     {
       "indice_bloco": 92,
       "nome": "Gabriel Henriques Amorim",
       "cpf": "15907903759",
-      "resultado_regex": {
-        "rg": [
-          "3742232"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 93,
       "nome": "Victor Hugo Ribeiro Simor",
       "cpf": "17360319706",
-      "resultado_regex": {
-        "rg": [
-          "2140401"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SESP"
-        ],
-        "data_emissao_ci": [
-          "02/09/2015"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 94,
       "nome": "Carolina Márcia Jadijisky Tonani",
       "cpf": "13193973793",
-      "resultado_regex": {
-        "rg": [
-          "3022766"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [
-          "15/02/2007"
-        ],
-        "endereco_nascimento": [
-          "Vitória - ES"
-        ]
-      }
+      "resultado_regex": []
     },
     {
       "indice_bloco": 95,
       "nome": "Luciano Alves da Silva",
       "cpf": "10466968744",
-      "resultado_regex": {
-        "rg": [],
-        "uf_ci": [],
-        "orgao_emissor_ci": [],
-        "data_emissao_ci": [],
-        "endereco_nascimento": []
-      }
+      "resultado_regex": [
+        "Solteiro"
+      ]
     },
     {
       "indice_bloco": 96,
       "nome": "Hugo Elias Chaves",
       "cpf": "14835204719",
-      "resultado_regex": {
-        "rg": [
-          "3058764"
-        ],
-        "uf_ci": [
-          "ES"
-        ],
-        "orgao_emissor_ci": [
-          "SPTC"
-        ],
-        "data_emissao_ci": [],
-        "endereco_nascimento": [
-          "vitória - ES"
-        ]
-      }
+      "resultado_regex": [
+        "solteiro"
+      ]
     }
   ]
 }

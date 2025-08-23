@@ -2,11 +2,14 @@ import os
 import re
 import json
 import unicodedata
+from typing import Dict, List
 
 FOLDER_PATH = "medico"
 output_dir = os.path.join(os.path.dirname(__file__), "output")
 
 DELIMITADOR = "---------------------------------\n\n"  # delimitador exato entre textos
+
+FLAGS = re.IGNORECASE | re.UNICODE | re.MULTILINE
 
 CPF_CANDIDATO_RE = re.compile(r"[\d.\-]{11,18}")
 QUINZE_DIGITOS_RE = re.compile(r"\d{15}")  # para localizar sequência exata de 15 dígitos
@@ -377,6 +380,32 @@ def extrair_informacoes_rg_ci(texto: str) -> dict:
         resultado["endereco_nascimento"] = [municipio]
     return resultado
 
+def _dedup(seq):
+    seen = set()
+    out = []
+    for x in seq:
+        if not x:
+            continue
+        k = x.strip().casefold()
+        if k in seen:
+            continue
+        out.append(x.strip())
+        seen.add(k)
+    return out
+
+def extract_estado_civil(text: str) -> str:
+    # Normaliza NBSP e espaços múltiplos
+    norm = text.replace("\xa0", " ")
+    norm = re.sub(r"[ \t]+", " ", norm)
+
+    pat_estado = re.compile(
+        r"^(?:-\s*)?estado\s*civil\s*:\s*([^\r\n]+?)\s*$",
+        FLAGS
+    )
+    encontrados = [m.group(1).strip() for m in pat_estado.finditer(norm)]
+    estado_civil = _dedup(encontrados)
+
+    return estado_civil
 
 def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
     """Lê normalizado.txt, separa pelos delimitadores e constrói
@@ -429,6 +458,8 @@ def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
 
         secoes = extrai_secao(bloco)
         rg_ci = extrair_informacoes_rg_ci(secoes["cadastro"]) if secoes.get("cadastro") else {"rg":[],"uf_ci":[],"orgao_emissor_ci":[],"data_emissao_ci":[],"endereco_nascimento":[]}
+        estado_civil = extract_estado_civil(secoes["cadastro"])
+        
         resultado["medico"]["blocos"].append({
             "nome": nome,
             "cpf": cpf,
@@ -445,6 +476,7 @@ def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
             "orgao_emissor_ci": rg_ci["orgao_emissor_ci"],
             "data_emissao_ci": rg_ci["data_emissao_ci"],
             "endereco_nascimento": rg_ci["endereco_nascimento"],
+            "estado_civil": estado_civil
         })
 
     # Acrescenta registro auxiliar (fora do schema principal solicitado) para auditoria

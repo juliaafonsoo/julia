@@ -25,7 +25,8 @@
         ],
         "endereco_nascimento": [
           "Cuiabá - MT"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "ALLANA RIBEIRO MARQUETTI SPADETO",
@@ -45,6 +46,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "VITÓRIA - ES"
+        ],
+        "estado_civil": [
+          "CASADO"
         ]
       },
       {
@@ -71,7 +75,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Déborah Dellabianca Bento",
@@ -97,7 +102,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Eduarda Santos Souza",
@@ -123,6 +129,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -141,7 +150,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira."
+        ]
       },
       {
         "nome": "Nayara Viale Vargas",
@@ -161,6 +173,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Governador Valadares - MI"
+        ],
+        "estado_civil": [
+          "Casada"
         ]
       },
       {
@@ -187,7 +202,8 @@
         ],
         "endereco_nascimento": [
           "Rio Bananal - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "MATHEUS COSTA ESPERIDON",
@@ -207,7 +223,10 @@
         ],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "SOLTEIRO"
+        ]
       },
       {
         "nome": "Mariana Santos Lorencini",
@@ -233,6 +252,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -259,6 +281,9 @@
         ],
         "endereco_nascimento": [
           "VILA VELHA - ES"
+        ],
+        "estado_civil": [
+          "SOLTEIRO"
         ]
       },
       {
@@ -285,7 +310,8 @@
         ],
         "endereco_nascimento": [
           "Ouro Preto d'Oeste - RO"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Déborah Villarins Pedrosa",
@@ -311,6 +337,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -337,7 +366,8 @@
         ],
         "endereco_nascimento": [
           "Mimoso do Sul - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Alana Cupertino Simora",
@@ -363,7 +393,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Heitor Bruno Fialho do Carmo.",
@@ -383,6 +414,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Mantena - MG"
+        ],
+        "estado_civil": [
+          "Solteiro."
         ]
       },
       {
@@ -409,7 +443,8 @@
         ],
         "endereco_nascimento": [
           "Linhares - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Camila Taliule",
@@ -435,6 +470,9 @@
         ],
         "endereco_nascimento": [
           "São Mateus - ÉS"
+        ],
+        "estado_civil": [
+          "solteira"
         ]
       },
       {
@@ -459,7 +497,8 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Nikhole Oliveira",
@@ -485,7 +524,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Carolynne Ferreira Machado",
@@ -511,7 +551,8 @@
         ],
         "endereco_nascimento": [
           "Aimorés"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "MÁRCIA CRISTINA SOUZA SILVA",
@@ -537,7 +578,8 @@
         ],
         "endereco_nascimento": [
           "MONTANHA - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Aline Fonseca Sandrini Ernandes",
@@ -563,6 +605,9 @@
         ],
         "endereco_nascimento": [
           "Itaperuna - RJ"
+        ],
+        "estado_civil": [
+          "casada"
         ]
       },
       {
@@ -585,6 +630,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "SP - SP"
+        ],
+        "estado_civil": [
+          "solteira"
         ]
       },
       {
@@ -611,6 +659,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -633,7 +684,10 @@
         "data_emissao_ci": [
           "16/06/2018"
         ],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira"
+        ]
       },
       {
         "nome": "Lucas Oliveira Athayde Arleu",
@@ -651,7 +705,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Casado"
+        ]
       },
       {
         "nome": "Eduarda Santos Souza",
@@ -677,6 +734,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -695,6 +755,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "VITÓRIA - ES"
+        ],
+        "estado_civil": [
+          "SOLTEIRO"
         ]
       },
       {
@@ -719,7 +782,8 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Vila Velha - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Amanda Cavalcante Lozer",
@@ -745,7 +809,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "FELIPE FERNANDES MOÇA MATOS",
@@ -771,6 +836,9 @@
         ],
         "endereco_nascimento": [
           "vitória - ES"
+        ],
+        "estado_civil": [
+          "casado"
         ]
       },
       {
@@ -797,7 +865,8 @@
         ],
         "endereco_nascimento": [
           "Cachoeiro de Itapemirim - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Vinícius Cypreste Santos",
@@ -823,6 +892,9 @@
         ],
         "endereco_nascimento": [
           "Vitória, Espirito Santo"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -849,6 +921,9 @@
         ],
         "endereco_nascimento": [
           "Afonso Cláudio"
+        ],
+        "estado_civil": [
+          "solteira"
         ]
       },
       {
@@ -875,7 +950,8 @@
         ],
         "endereco_nascimento": [
           "SÃO PAULO - SP"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Angelina Brinati Torres Oliveira",
@@ -901,7 +977,8 @@
         ],
         "endereco_nascimento": [
           "Vargem Alta – Espírito Santo"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Pietra Sardinha Silvestre Mousinho Donato",
@@ -925,7 +1002,10 @@
         "data_emissao_ci": [
           "27/09/2024"
         ],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira"
+        ]
       },
       {
         "nome": "Júlia Brandão de Carvalho",
@@ -943,7 +1023,8 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": []
       },
       {
         "nome": "Gustavo Viana santana",
@@ -969,7 +1050,8 @@
         ],
         "endereco_nascimento": [
           "itamaraju - BA"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Lucas Lobo de Queiroz",
@@ -987,7 +1069,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteiro"
+        ]
       },
       {
         "nome": "GIULIANA VIEIRA PRETTI",
@@ -1013,6 +1098,9 @@
         ],
         "endereco_nascimento": [
           "VITÓRIA - ES"
+        ],
+        "estado_civil": [
+          "SOLTEIRA"
         ]
       },
       {
@@ -1039,7 +1127,8 @@
         ],
         "endereco_nascimento": [
           "BELO HORIZONTE - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Leticia Viana Vaz",
@@ -1065,7 +1154,8 @@
         ],
         "endereco_nascimento": [
           "Muriaé - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Allana Frederich Pinto",
@@ -1091,7 +1181,8 @@
         ],
         "endereco_nascimento": [
           "Aimorés - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Ana Cláudia Barbosa de Sousa",
@@ -1117,7 +1208,8 @@
         ],
         "endereco_nascimento": [
           "baixo Guandu - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "ELKJAER LINIKER LOURENÇO",
@@ -1143,6 +1235,9 @@
         ],
         "endereco_nascimento": [
           "VITÓRIA - ES"
+        ],
+        "estado_civil": [
+          "CASADO"
         ]
       },
       {
@@ -1169,7 +1264,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Alexandre Gabriel Bonela",
@@ -1195,6 +1291,9 @@
         ],
         "endereco_nascimento": [
           "Castelo - ES"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -1221,6 +1320,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -1247,7 +1349,8 @@
         ],
         "endereco_nascimento": [
           "Niterói - RJ"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Amanda Rodrigues Lessa",
@@ -1273,6 +1376,9 @@
         ],
         "endereco_nascimento": [
           "Vila Velha - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -1299,7 +1405,8 @@
         ],
         "endereco_nascimento": [
           "Cachoeiro de Itapemirim"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Nathalia Frinhani Bernardineli",
@@ -1325,7 +1432,8 @@
         ],
         "endereco_nascimento": [
           "Linhares"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Allana Gomes Alexandre",
@@ -1349,7 +1457,8 @@
         ],
         "endereco_nascimento": [
           "Mantena"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Marina Bittencourt Narciso",
@@ -1375,7 +1484,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Fernanda Reisen Vasconcelos",
@@ -1401,7 +1511,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Janinne Fachetti Rocha",
@@ -1427,7 +1538,8 @@
         ],
         "endereco_nascimento": [
           "Teixeira de Freitas - BA"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Fernanda Egashira Era",
@@ -1453,7 +1565,8 @@
         ],
         "endereco_nascimento": [
           "São Caetano do Sul - SP"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "ESTER QUEIROZ GALAVOTTI COSTA",
@@ -1471,6 +1584,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "LINHARES - ES"
+        ],
+        "estado_civil": [
+          "CASADA"
         ]
       },
       {
@@ -1497,6 +1613,9 @@
         ],
         "endereco_nascimento": [
           "Caratinga - MI"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -1523,7 +1642,8 @@
         ],
         "endereco_nascimento": [
           "são Gabriel da palha - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "LUCIANO ALVES DA SILVA",
@@ -1547,7 +1667,8 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "MANTENA - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Carla Campos Miranda",
@@ -1573,7 +1694,8 @@
         ],
         "endereco_nascimento": [
           "Montanha - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "LUCILA MARIA DE ALMEIDA LOPES",
@@ -1595,6 +1717,9 @@
         ],
         "endereco_nascimento": [
           "VITÓRIA"
+        ],
+        "estado_civil": [
+          "SOLTEIRA"
         ]
       },
       {
@@ -1617,7 +1742,8 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Vila Velha - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Bruno de Sousa Varanda",
@@ -1643,7 +1769,8 @@
         ],
         "endereco_nascimento": [
           "Eunápolis - BA"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "FELLIPE SANT'ANNA ALMADA",
@@ -1669,7 +1796,8 @@
         ],
         "endereco_nascimento": [
           "VILA VELHA - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Camila Tripodi Pereira Nogueira",
@@ -1685,7 +1813,8 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": []
       },
       {
         "nome": "MARIANA REIS ROSA",
@@ -1711,6 +1840,9 @@
         ],
         "endereco_nascimento": [
           "VITÓRIA - ES"
+        ],
+        "estado_civil": [
+          "SOLTEIRA"
         ]
       },
       {
@@ -1737,6 +1869,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -1763,7 +1898,8 @@
         ],
         "endereco_nascimento": [
           "VITORIA - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Fernando Mognato de Jesus",
@@ -1787,7 +1923,8 @@
         ],
         "endereco_nascimento": [
           "Vitoria"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Isabela Bernardino Freire",
@@ -1807,7 +1944,10 @@
         ],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira"
+        ]
       },
       {
         "nome": "Luane Scherrer Juliatti",
@@ -1833,7 +1973,8 @@
         ],
         "endereco_nascimento": [
           "Lisboa"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "FRANCISCO PINHEIRO GOMES",
@@ -1851,7 +1992,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "SOLTEIRO"
+        ]
       },
       {
         "nome": "FRANCISCO DE OLIVEIRA QUEIROGA",
@@ -1877,7 +2021,8 @@
         ],
         "endereco_nascimento": [
           "VITORIA - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Tayane costa Santiago",
@@ -1903,6 +2048,9 @@
         ],
         "endereco_nascimento": [
           "Salvador - BA"
+        ],
+        "estado_civil": [
+          "casada"
         ]
       },
       {
@@ -1929,7 +2077,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Bernardo Araújo",
@@ -1955,6 +2104,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "solteiro"
         ]
       },
       {
@@ -1981,7 +2133,8 @@
         ],
         "endereco_nascimento": [
           "Linhares - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Sarah Prest Siquara Vieira",
@@ -1999,7 +2152,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira"
+        ]
       },
       {
         "nome": "32, 22/03/2022] Dr Andre Luis: - Nome do profissional: André Luis Lopes Costa",
@@ -2025,7 +2181,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "GABRIEL EURICO ALVES DE CASTRO",
@@ -2051,7 +2208,8 @@
         ],
         "endereco_nascimento": [
           "ALEXÂNIA - GO"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Raul de Paula Resende Bicalho",
@@ -2077,7 +2235,8 @@
         ],
         "endereco_nascimento": [
           "Divinópolis - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Bárbara Beatriz Amaral Rodrigues",
@@ -2095,7 +2254,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "solteira"
+        ]
       },
       {
         "nome": "Amanda Silva Guimarães",
@@ -2121,7 +2283,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "André Silveira da Rocha",
@@ -2147,6 +2310,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -2165,7 +2331,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteira"
+        ]
       },
       {
         "nome": "Flávia Lima Peixoto Costa",
@@ -2191,7 +2360,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Valéria Lopes Cupertino",
@@ -2215,7 +2385,8 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "Coronel Fabriciano - MG"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Ana Carolina De Biase Rodrigues de Jesus",
@@ -2241,6 +2412,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteira"
         ]
       },
       {
@@ -2261,7 +2435,10 @@
         ],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteiro"
+        ]
       },
       {
         "nome": "Victor Hugo Ribeiro Simor",
@@ -2287,6 +2464,9 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
+        ],
+        "estado_civil": [
+          "Solteiro"
         ]
       },
       {
@@ -2313,7 +2493,8 @@
         ],
         "endereco_nascimento": [
           "Vitória - ES"
-        ]
+        ],
+        "estado_civil": []
       },
       {
         "nome": "Luciano Alves da Silva",
@@ -2329,7 +2510,10 @@
         "uf_ci": [],
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
-        "endereco_nascimento": []
+        "endereco_nascimento": [],
+        "estado_civil": [
+          "Solteiro"
+        ]
       },
       {
         "nome": "Hugo Elias Chaves",
@@ -2353,6 +2537,9 @@
         "data_emissao_ci": [],
         "endereco_nascimento": [
           "vitória - ES"
+        ],
+        "estado_civil": [
+          "solteiro"
         ]
       }
     ],
