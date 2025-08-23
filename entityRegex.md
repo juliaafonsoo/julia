@@ -1,8 +1,6 @@
 
   "medico": {
     "nome": [],
-    "sexo": [],
-    "idade": [],
     "cpf": [],
     "rg": [],
     "uf_ci": [],
@@ -22,11 +20,9 @@
     "data_formacao": [],
     "faculdade_formacao": []
     "cns": [],
-    "sus": [],
-    "filhos": [],
     "pos_graduacao": []
     "residencia": [],
-    "info_competencia": []
+    "competencia": []
     "possui_assinatura_digital": [],
     "possui_carro_proprio": [],
     "modelo": [],
