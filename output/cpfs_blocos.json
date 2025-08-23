@@ -26,7 +26,22 @@
         "endereco_nascimento": [
           "Cuiabá - MT"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua Carlos Delgado Guerra Pinto, 640, AP 502, Jardim Camburi, Vitória-ES"
+        ],
+        "crm": [
+          "17476"
+        ],
+        "email": [
+          "julia.delpiero@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12h"
+        ]
       },
       {
         "nome": "ALLANA RIBEIRO MARQUETTI SPADETO",
@@ -49,7 +64,24 @@
         ],
         "estado_civil": [
           "CASADO"
-        ]
+        ],
+        "endereco": [
+          "RUA CURITIBA, NUMERO 03, BAIRRO ALTEROSAS, SERRA-ES"
+        ],
+        "crm": [
+          "21779"
+        ],
+        "email": [
+          "allana.marquetti@gmail.com"
+        ],
+        "telefone": [
+          "27 997844180"
+        ],
+        "telefone_emergencia": [
+          "28 999253787"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bárbara Grillo Bourguignon",
@@ -76,7 +108,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Alvaro da Silva Labuto, 165, Morada de Camburi, Vitória, ES, 29062530"
+        ],
+        "crm": [
+          "17763"
+        ],
+        "email": [
+          "barbarabourguignon@terra.com.br"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24 hrs"
+        ]
       },
       {
         "nome": "Déborah Dellabianca Bento",
@@ -103,7 +150,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Jequié, nº 1 - Bairro Jardim Atlântico - Serra/ES"
+        ],
+        "crm": [
+          "18.238"
+        ],
+        "email": [
+          "deborah_bento@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Eduarda Santos Souza",
@@ -132,7 +192,26 @@
         ],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Beco Senhora das Graças, 22, bairro São José - Vitória"
+        ],
+        "crm": [
+          "21776"
+        ],
+        "email": [
+          "eduardameduvv@gmail.com"
+        ],
+        "telefone": [
+          "(27)98821-8932"
+        ],
+        "telefone_emergencia": [
+          "(27)99999-5070"
+        ],
+        "tipo_contato_emergencia": [
+          "Erick"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Izabelly Coutinho Sperandio.",
@@ -153,7 +232,22 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira."
-        ]
+        ],
+        "endereco": [
+          "Avenida Hugo Musso, 1720, Itapoã, Vila Velha. Edifício Califórnia ap.1004"
+        ],
+        "crm": [
+          "21760."
+        ],
+        "email": [],
+        "telefone": [
+          "(27) 997262566"
+        ],
+        "telefone_emergencia": [
+          "(27) 999049018"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Nayara Viale Vargas",
@@ -176,7 +270,20 @@
         ],
         "estado_civil": [
           "Casada"
-        ]
+        ],
+        "endereco": [
+          "Rua Deolindo Perim, n 03, apartamento 904, Praia de Itaparica, Vila Velha - ES"
+        ],
+        "crm": [
+          "21784"
+        ],
+        "email": [
+          "nayara.viale@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Alana Silva Gava",
@@ -203,7 +310,18 @@
         "endereco_nascimento": [
           "Rio Bananal - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Avenida Dante michelini 575, ap 505, Jardim da Penha, Vitória/ES"
+        ],
+        "crm": [
+          "17.626"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "MATHEUS COSTA ESPERIDON",
@@ -226,7 +344,20 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "SOLTEIRO"
-        ]
+        ],
+        "endereco": [
+          "RUA ENSEADA CARIOCA,101, ITAPARICA, VILA VELHA-ES"
+        ],
+        "crm": [],
+        "email": [],
+        "telefone": [
+          "28 99909 8583"
+        ],
+        "telefone_emergencia": [
+          "27 99758 7424"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Mariana Santos Lorencini",
@@ -255,7 +386,24 @@
         ],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua Izaltino Arão Marques n78/ Mata da Praia"
+        ],
+        "crm": [
+          "21186"
+        ],
+        "email": [],
+        "telefone": [
+          "27999001102"
+        ],
+        "telefone_emergencia": [
+          "27999449807"
+        ],
+        "tipo_contato_emergencia": [
+          "Vania"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "ARTHUR SILVA SECCHIN",
@@ -284,7 +432,26 @@
         ],
         "estado_civil": [
           "SOLTEIRO"
-        ]
+        ],
+        "endereco": [
+          "RUA OSWALDO RAMOS, 51, PRAIA DAS GAIVOTAS, VILA VELHA, ES"
+        ],
+        "crm": [
+          "21.810"
+        ],
+        "email": [
+          "ASECCHIN@YAHOO.COM"
+        ],
+        "telefone": [
+          "(27) 99956-6737"
+        ],
+        "telefone_emergencia": [
+          "(27) 99844-8224"
+        ],
+        "tipo_contato_emergencia": [
+          "PAI"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Diego Seguchi Orlette",
@@ -311,7 +478,20 @@
         "endereco_nascimento": [
           "Ouro Preto d'Oeste - RO"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av Estudante José Julio de Souza, 1850, AP 203B -"
+        ],
+        "crm": [
+          "17984"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24h (Coringa)"
+        ]
       },
       {
         "nome": "Déborah Villarins Pedrosa",
@@ -340,6 +520,21 @@
         ],
         "estado_civil": [
           "Solteira"
+        ],
+        "endereco": [
+          "Rua Maria de Oliveira Maresguia - nº 101, Praia de Itaparica, Vila Velha -ES"
+        ],
+        "crm": [
+          "17672"
+        ],
+        "email": [
+          "deborah.pedrosa@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "Plantões não fixos em ubs"
         ]
       },
       {
@@ -367,7 +562,20 @@
         "endereco_nascimento": [
           "Mimoso do Sul - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Milton Ramalho Simões, número 180,Apt 601"
+        ],
+        "crm": [
+          "15735"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24h"
+        ]
       },
       {
         "nome": "Alana Cupertino Simora",
@@ -394,7 +602,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Capuaba, n⁰ 53, Mata da Serra - Serra/ES"
+        ],
+        "crm": [
+          "17474"
+        ],
+        "email": [
+          "alanasimora@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12h"
+        ]
       },
       {
         "nome": "Heitor Bruno Fialho do Carmo.",
@@ -417,7 +640,22 @@
         ],
         "estado_civil": [
           "Solteiro."
-        ]
+        ],
+        "endereco": [
+          "Av. Antônio Almeida Filho, 1008 – Ed. Nápoles, ap. 1204 Torre A"
+        ],
+        "crm": [
+          "21672"
+        ],
+        "email": [],
+        "telefone": [
+          "8145-8006"
+        ],
+        "telefone_emergencia": [
+          "2000-9359"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Hugo Pessotti Aborghetti",
@@ -444,7 +682,22 @@
         "endereco_nascimento": [
           "Linhares - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av. Dr. Pedro Fêu Rosa, N197, Apto 201, Bloco 09, Jardim da Penha, Vitória-ES"
+        ],
+        "crm": [
+          "18.098"
+        ],
+        "email": [
+          "hugopessoti@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12-24h"
+        ]
       },
       {
         "nome": "Camila Taliule",
@@ -473,7 +726,20 @@
         ],
         "estado_civil": [
           "solteira"
-        ]
+        ],
+        "endereco": [
+          "rua major Clarindo fundão, número 70, apto 901"
+        ],
+        "crm": [
+          "17297"
+        ],
+        "email": [
+          "camilataliule@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Franco Luís Salume Costa",
@@ -498,7 +764,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29010390"
+        ],
+        "crm": [
+          "16167"
+        ],
+        "email": [
+          "francosalume@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "inicialmente 12h/semana"
+        ]
       },
       {
         "nome": "Nikhole Oliveira",
@@ -525,7 +806,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29090-230"
+        ],
+        "crm": [
+          "21633"
+        ],
+        "email": [],
+        "telefone": [
+          "27 998012720"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Carolynne Ferreira Machado",
@@ -552,7 +846,20 @@
         "endereco_nascimento": [
           "Aimorés"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29 060 270"
+        ],
+        "crm": [
+          "18237"
+        ],
+        "email": [
+          "carolynne-95@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "MÁRCIA CRISTINA SOUZA SILVA",
@@ -579,7 +886,22 @@
         "endereco_nascimento": [
           "MONTANHA - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "RUA DORA VIVACQUA, 71, APTO 904 ED. VILLA CASTELLI, JARDIM CAMBURI, VITÓRIA – ES"
+        ],
+        "crm": [
+          "7541"
+        ],
+        "email": [
+          "drmcrissilva@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12 HORAS"
+        ]
       },
       {
         "nome": "Aline Fonseca Sandrini Ernandes",
@@ -608,7 +930,20 @@
         ],
         "estado_civil": [
           "casada"
-        ]
+        ],
+        "endereco": [
+          "29090-760"
+        ],
+        "crm": [
+          "18166"
+        ],
+        "email": [
+          "aline.sandrini@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bianca Paola da Silva Cea",
@@ -633,7 +968,20 @@
         ],
         "estado_civil": [
           "solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua Desembargador Augusto Botelho, 850 - apto 1004 -"
+        ],
+        "crm": [
+          "18185"
+        ],
+        "email": [
+          "bpaolacea@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Germano Gianizeli Paganotti",
@@ -662,7 +1010,20 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Rua Genserico Encarnação 185"
+        ],
+        "crm": [
+          "18.282"
+        ],
+        "email": [
+          "germanopaganottig@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Júlia Amaral Soares Pacheco",
@@ -687,7 +1048,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua Duque de Caxias 26, Alto Laje, Cariacica"
+        ],
+        "crm": [
+          "21611"
+        ],
+        "email": [
+          "juliaamaral525@gmail.com"
+        ],
+        "telefone": [
+          "(27) 998517018"
+        ],
+        "telefone_emergencia": [
+          "(27) 998886344"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Lucas Oliveira Athayde Arleu",
@@ -708,7 +1086,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Casado"
-        ]
+        ],
+        "endereco": [
+          "Rua Amélia da Cunha Ornelas, 150 - Bento Ferreira"
+        ],
+        "crm": [
+          "21.485"
+        ],
+        "email": [
+          "lucasarleu01@gmail.com"
+        ],
+        "telefone": [
+          "99321342"
+        ],
+        "telefone_emergencia": [
+          "96284870"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Eduarda Santos Souza",
@@ -737,7 +1132,26 @@
         ],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Beco Sra das Graças, nº 22, São José - Vitória"
+        ],
+        "crm": [
+          "21776"
+        ],
+        "email": [
+          "eduardameduvv@gmail.com"
+        ],
+        "telefone": [
+          "(27)98821-8932"
+        ],
+        "telefone_emergencia": [
+          "(27)99999-5070"
+        ],
+        "tipo_contato_emergencia": [
+          "Erick"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "VICTOR HUGO RIBEIRO SIMOR",
@@ -758,7 +1172,26 @@
         ],
         "estado_civil": [
           "SOLTEIRO"
-        ]
+        ],
+        "endereco": [
+          "RUA ASTROGILDO ROMÃO DOS ANJOS"
+        ],
+        "crm": [
+          "21659"
+        ],
+        "email": [
+          "Victoribeiros07@Gmail.com"
+        ],
+        "telefone": [
+          "27 997675592"
+        ],
+        "telefone_emergencia": [
+          "998112617"
+        ],
+        "tipo_contato_emergencia": [
+          "JOSÉ CARLOS"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Denis Soprani Pereira",
@@ -783,7 +1216,22 @@
         "endereco_nascimento": [
           "Vila Velha - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Luis Fernandes Reis, 550, Ed.Costa Marina, Apto1302, Praia da Costa. VV"
+        ],
+        "crm": [
+          "16566"
+        ],
+        "email": [
+          "denisoprani.ufes@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "36h"
+        ]
       },
       {
         "nome": "Amanda Cavalcante Lozer",
@@ -810,7 +1258,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Manoel Bandeira, número 940, São Diogo I, Serra-ES"
+        ],
+        "crm": [
+          "18.236"
+        ],
+        "email": [
+          "amandalozer@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "FELIPE FERNANDES MOÇA MATOS",
@@ -839,6 +1300,21 @@
         ],
         "estado_civil": [
           "casado"
+        ],
+        "endereco": [
+          "29050620 rua Amélia da Cunha Ornelas, 150, apt 906"
+        ],
+        "crm": [
+          "16196"
+        ],
+        "email": [
+          "felipefernandesmoca@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12 horas quinzenais"
         ]
       },
       {
@@ -866,7 +1342,22 @@
         "endereco_nascimento": [
           "Cachoeiro de Itapemirim - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Carlos Carielo, número 250. Apto 1104. Jardim Camburi, Vitória- ES"
+        ],
+        "crm": [
+          "14171"
+        ],
+        "email": [
+          "emanuellapbarboza@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "Plantão extra"
+        ]
       },
       {
         "nome": "Vinícius Cypreste Santos",
@@ -895,7 +1386,26 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Av. Estudante José Júlio de Souza 1450, Praia de Itaparica, Vila Velha, Espirito Santo"
+        ],
+        "crm": [
+          "21814"
+        ],
+        "email": [
+          "cypresteviniciuss@gmail.com"
+        ],
+        "telefone": [
+          "27992478915"
+        ],
+        "telefone_emergencia": [
+          "27999898990"
+        ],
+        "tipo_contato_emergencia": [
+          "Gabriel Bertoni - Tel. do contato de urgência"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Fernanda Bulhões Pagotto Pádua",
@@ -924,6 +1434,21 @@
         ],
         "estado_civil": [
           "solteira"
+        ],
+        "endereco": [
+          "rua Carijós, n180, ap 501, Jardim da Penha, Vitória-ÉS"
+        ],
+        "crm": [
+          "16843"
+        ],
+        "email": [
+          "fernandapagottopadua@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "indedinido"
         ]
       },
       {
@@ -951,7 +1476,22 @@
         "endereco_nascimento": [
           "SÃO PAULO - SP"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av Delio Silva Brito 150 Ed Atafona 705"
+        ],
+        "crm": [
+          "17388"
+        ],
+        "email": [
+          "alinebalencar@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "coringa"
+        ]
       },
       {
         "nome": "Angelina Brinati Torres Oliveira",
@@ -978,7 +1518,22 @@
         "endereco_nascimento": [
           "Vargem Alta – Espírito Santo"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Oswaldo Bastos de Souza Freitas, nº 105, apartamento 206, Bairro Jardim Camburi, Vitória – ES"
+        ],
+        "crm": [
+          "17301"
+        ],
+        "email": [
+          "angelina-torres@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24-30 horas"
+        ]
       },
       {
         "nome": "Pietra Sardinha Silvestre Mousinho Donato",
@@ -1005,7 +1560,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua Dom Pedro II, 135"
+        ],
+        "crm": [
+          "21804"
+        ],
+        "email": [
+          "pietrassmousinho@gmail.com"
+        ],
+        "telefone": [
+          "27 99830-2412"
+        ],
+        "telefone_emergencia": [
+          "27 99903-2898"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Júlia Brandão de Carvalho",
@@ -1024,7 +1596,18 @@
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
         "endereco_nascimento": [],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Goiânia, Itapuã, número 234, apartamento 1106"
+        ],
+        "crm": [
+          "21762"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Gustavo Viana santana",
@@ -1051,7 +1634,20 @@
         "endereco_nascimento": [
           "itamaraju - BA"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua Manoel Braga Machado, 65. 29308-065"
+        ],
+        "crm": [
+          "17"
+        ],
+        "email": [
+          "gvianasantana@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Lucas Lobo de Queiroz",
@@ -1072,7 +1668,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Avenida Afonso Pena, 384, apt 501. Praia da Costa, Vila Velha - ES"
+        ],
+        "crm": [
+          "21753"
+        ],
+        "email": [
+          "lucasloboq@gmail.com"
+        ],
+        "telefone": [
+          "27 997435229"
+        ],
+        "telefone_emergencia": [
+          "27 981158478"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "GIULIANA VIEIRA PRETTI",
@@ -1101,7 +1714,20 @@
         ],
         "estado_civil": [
           "SOLTEIRA"
-        ]
+        ],
+        "endereco": [
+          "RUA NATALINA DAHER CARNEIRO 871, ED ANAJA, APTO 202, JARDIM DA PENHA, VITÓRIA, ES"
+        ],
+        "crm": [
+          "18.231"
+        ],
+        "email": [
+          "GIUPRETTI2@GMAIL.COM"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "BRENDA DE CARVALHO CANDIOTTO",
@@ -1128,7 +1754,22 @@
         "endereco_nascimento": [
           "BELO HORIZONTE - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "RUA SATURNINO DE BRITO, 1270 / APTO 702 PRAIA DO CANTO -"
+        ],
+        "crm": [
+          "8936"
+        ],
+        "email": [
+          "brendaccandiotto@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "exceto segundas, quartas e domingos"
+        ]
       },
       {
         "nome": "Leticia Viana Vaz",
@@ -1155,7 +1796,20 @@
         "endereco_nascimento": [
           "Muriaé - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Oscar Rodrigues de Oliveira, n 653, bloco 7, apto 302, bairro Jardim da Penha, Vitória"
+        ],
+        "crm": [
+          "17771"
+        ],
+        "email": [
+          "leticia.viana.vaz@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Allana Frederich Pinto",
@@ -1182,7 +1836,22 @@
         "endereco_nascimento": [
           "Aimorés - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "R: Xenocrates Calmon, n° 70 , Nossa Senhora Aparecida, Colatina/ES"
+        ],
+        "crm": [
+          "21650"
+        ],
+        "email": [
+          "allanafrederich1997@gmail.com"
+        ],
+        "telefone": [
+          "(27) 99611-1684"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Ana Cláudia Barbosa de Sousa",
@@ -1209,7 +1878,22 @@
         "endereco_nascimento": [
           "baixo Guandu - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua carijós, jardim da Penha, ap 201, número 180, vitoria"
+        ],
+        "crm": [
+          "18142"
+        ],
+        "email": [
+          "nanabsousa4@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "coringa"
+        ]
       },
       {
         "nome": "ELKJAER LINIKER LOURENÇO",
@@ -1238,7 +1922,25 @@
         ],
         "estado_civil": [
           "CASADO"
-        ]
+        ],
+        "endereco": [
+          "RUA DESEMBARGADOR AUGUSTO BOTELHO 688 PRAIA DA COSTA VV-ES"
+        ],
+        "crm": [
+          "21811"
+        ],
+        "email": [
+          "ELKJAER.LOURENCO.MED@GMAIL.COM"
+        ],
+        "telefone": [
+          "27997413701"
+        ],
+        "telefone_emergencia": [
+          "27995283029",
+          "27992411027"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Ana Paula Laignier Costa",
@@ -1265,7 +1967,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Avenida Estudante José Júlio de Souza, nº 1900, Praia de Itaparica, Vila Velha – ES, 29102-010"
+        ],
+        "crm": [
+          "17.982"
+        ],
+        "email": [
+          "anapaulalaignier@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "48h"
+        ]
       },
       {
         "nome": "Alexandre Gabriel Bonela",
@@ -1294,7 +2011,28 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Av. Francisco Generoso da Fonseca, 951, Apto 203, Jardim da Penha, Vitória-ES"
+        ],
+        "crm": [
+          "21072"
+        ],
+        "email": [
+          "alexandrebonela@gmail.com"
+        ],
+        "telefone": [
+          "(28) 99996-9102"
+        ],
+        "telefone_emergencia": [
+          "(28) 99996-1065",
+          "(27) 99626-3132"
+        ],
+        "tipo_contato_emergencia": [
+          "Reni – Mãe",
+          "Ana Clara – Namorada"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Felipe Ribeiro do Val Tommasi Silva",
@@ -1323,7 +2061,20 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "29056260, av. Rio Branco, número 610, Santa Lucia"
+        ],
+        "crm": [
+          "16991"
+        ],
+        "email": [
+          "tommasi.felipe@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bruna Franzotti",
@@ -1350,7 +2101,22 @@
         "endereco_nascimento": [
           "Niterói - RJ"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua Odette de Oliveira lacourt, 620, apto 501"
+        ],
+        "crm": [
+          "14191"
+        ],
+        "email": [
+          "bruna.franzotti@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12h"
+        ]
       },
       {
         "nome": "Amanda Rodrigues Lessa",
@@ -1379,6 +2145,21 @@
         ],
         "estado_civil": [
           "Solteira"
+        ],
+        "endereco": [
+          "29171209"
+        ],
+        "crm": [
+          "19207"
+        ],
+        "email": [
+          "amanda.r-l@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "depende"
         ]
       },
       {
@@ -1406,7 +2187,18 @@
         "endereco_nascimento": [
           "Cachoeiro de Itapemirim"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Professora Alcina Nascimento Gomes, nº 52, apto 3, Antônio Honório, Vitória, ES, 29070-282"
+        ],
+        "crm": [
+          "17.993"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Nathalia Frinhani Bernardineli",
@@ -1433,7 +2225,22 @@
         "endereco_nascimento": [
           "Linhares"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Carijós 580 apto 405 – Jardim da Penha, Vitoria – ES 29060 700"
+        ],
+        "crm": [
+          "21770"
+        ],
+        "email": [
+          "nathaliafbernardineli@hotmail.com"
+        ],
+        "telefone": [
+          "27 999089020"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Allana Gomes Alexandre",
@@ -1458,7 +2265,20 @@
         "endereco_nascimento": [
           "Mantena"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Comissário Octávio Queiroz, 120 apto 503 bloco 03, Jardim da Penha, Vitória, Espírito Santo, 29060-270"
+        ],
+        "crm": [
+          "18100"
+        ],
+        "email": [
+          "allanagomes.a@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Marina Bittencourt Narciso",
@@ -1485,7 +2305,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Milton Ramalho Simões 180, apt 501, Jardim Camburi, Vitória"
+        ],
+        "crm": [
+          "21534"
+        ],
+        "email": [],
+        "telefone": [
+          "27996400805"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12h"
+        ]
       },
       {
         "nome": "Fernanda Reisen Vasconcelos",
@@ -1512,7 +2347,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Avenida Pedro Depiante, número 194, Edifício Terraço Itália, Bairro Morada de Camburi"
+        ],
+        "crm": [
+          "16.535"
+        ],
+        "email": [
+          "nandareisen@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Janinne Fachetti Rocha",
@@ -1539,7 +2387,18 @@
         "endereco_nascimento": [
           "Teixeira de Freitas - BA"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av. Saturnino Rangel Mauro, número 3500, Ed. Eco Itaparica, apto 605 Praia de Itaparica, Vila Velha"
+        ],
+        "crm": [
+          "16239"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Fernanda Egashira Era",
@@ -1566,7 +2425,22 @@
         "endereco_nascimento": [
           "São Caetano do Sul - SP"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua Gelu Vervloet dos Santos, n280, apto 2006 E, Jardim Camburi, Vitória - ES"
+        ],
+        "crm": [
+          "17992"
+        ],
+        "email": [
+          "feegashira@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "flexível"
+        ]
       },
       {
         "nome": "ESTER QUEIROZ GALAVOTTI COSTA",
@@ -1587,7 +2461,26 @@
         ],
         "estado_civil": [
           "CASADA"
-        ]
+        ],
+        "endereco": [
+          "RUA CHAFIC MURAD, 43. BENTO FERREIRA, VITORIA - ES. APTO 803"
+        ],
+        "crm": [
+          "21790"
+        ],
+        "email": [
+          "ESGALAVOTTI@GMAIL.COM"
+        ],
+        "telefone": [
+          "27 99926-5006"
+        ],
+        "telefone_emergencia": [
+          "27 997252185"
+        ],
+        "tipo_contato_emergencia": [
+          "MARIDO"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Luana Caetano Barbosa",
@@ -1616,7 +2509,22 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Avenida Alziru Zarur, 310, apto 303"
+        ],
+        "crm": [
+          "21467"
+        ],
+        "email": [],
+        "telefone": [
+          "33999009580"
+        ],
+        "telefone_emergencia": [
+          "33 999613468"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Cibely Nascimento Arcari",
@@ -1643,7 +2551,22 @@
         "endereco_nascimento": [
           "são Gabriel da palha - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "rua desembargador Vicente Caetano, 66 - 29065730"
+        ],
+        "crm": [
+          "17326"
+        ],
+        "email": [
+          "cibelynarcari@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24 hrs"
+        ]
       },
       {
         "nome": "LUCIANO ALVES DA SILVA",
@@ -1668,7 +2591,20 @@
         "endereco_nascimento": [
           "MANTENA - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [],
+        "crm": [
+          "21.576"
+        ],
+        "email": [
+          "ALVES.LUCIANO.S@OUTLOOK.COM"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "DISPONÍVEL 40 OU MAIS"
+        ]
       },
       {
         "nome": "Carla Campos Miranda",
@@ -1695,7 +2631,22 @@
         "endereco_nascimento": [
           "Montanha - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Carijós, 135, apartamento 401, bairro jardim da Penha, vitória/es 29060700"
+        ],
+        "crm": [
+          "17379"
+        ],
+        "email": [
+          "carlacamposmir@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "plantões avulsos"
+        ]
       },
       {
         "nome": "LUCILA MARIA DE ALMEIDA LOPES",
@@ -1720,7 +2671,18 @@
         ],
         "estado_civil": [
           "SOLTEIRA"
-        ]
+        ],
+        "endereco": [
+          "RUA CONSTANTE SODRÉ 1179, APTO 1001. PRAIA DO CANTO – VITÓRIA – E.S"
+        ],
+        "crm": [
+          "18364"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "NOME nao detectado",
@@ -1743,7 +2705,20 @@
         "endereco_nascimento": [
           "Vila Velha - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Santa Cruz, 27, Valparaiso, Serra, ES"
+        ],
+        "crm": [
+          "17858"
+        ],
+        "email": [
+          "alinehmachado1@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bruno de Sousa Varanda",
@@ -1770,7 +2745,22 @@
         "endereco_nascimento": [
           "Eunápolis - BA"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29102-205. Rua Itaoca n100 Ed Porto Cali Apto 1106 - Praia de Itaparica, Vila Velha"
+        ],
+        "crm": [
+          "18.329"
+        ],
+        "email": [
+          "bsvaranda@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "60h"
+        ]
       },
       {
         "nome": "FELLIPE SANT'ANNA ALMADA",
@@ -1797,7 +2787,20 @@
         "endereco_nascimento": [
           "VILA VELHA - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29090130 – RUA RUY PINTO BANDEIRA, N 901, JARDIM CAMBURI, VITORIA, ES"
+        ],
+        "crm": [
+          "13560"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "40"
+        ]
       },
       {
         "nome": "Camila Tripodi Pereira Nogueira",
@@ -1814,7 +2817,24 @@
         "orgao_emissor_ci": [],
         "data_emissao_ci": [],
         "endereco_nascimento": [],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Inácio Higino, 198, Praia da costa"
+        ],
+        "crm": [
+          "21.578"
+        ],
+        "email": [
+          "tripodicamila8@gmail.com"
+        ],
+        "telefone": [
+          "(73)99801-8484"
+        ],
+        "telefone_emergencia": [
+          "(73) 99985-3932"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "MARIANA REIS ROSA",
@@ -1843,7 +2863,24 @@
         ],
         "estado_civil": [
           "SOLTEIRA"
-        ]
+        ],
+        "endereco": [
+          "RUA CHAPOT PRESVOT, N 700, APTO 401. PRAIA DO CANTO, VITÓRIA - ES"
+        ],
+        "crm": [
+          "20964"
+        ],
+        "email": [],
+        "telefone": [
+          "27 995082670"
+        ],
+        "telefone_emergencia": [
+          "27 998390061"
+        ],
+        "tipo_contato_emergencia": [
+          "INGRID ZANETTI"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Eduarda Santos Souza",
@@ -1872,7 +2909,26 @@
         ],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Beco Sra das Graças, nº 22, São José - Vitória"
+        ],
+        "crm": [
+          "21776"
+        ],
+        "email": [
+          "eduardameduvv@gmail.com"
+        ],
+        "telefone": [
+          "(27)98821-8932"
+        ],
+        "telefone_emergencia": [
+          "(27)99999-5070"
+        ],
+        "tipo_contato_emergencia": [
+          "Erick"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "DANDHARA ROCHA DA SILVA PELANDA",
@@ -1899,7 +2955,20 @@
         "endereco_nascimento": [
           "VITORIA - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "RUA HUMBERTO PEREIRA, 11, PRAIA DE ITAPARICA, VILA VELHA"
+        ],
+        "crm": [
+          "17387"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "NAO TENHO HORARIO FIXO AINDA"
+        ]
       },
       {
         "nome": "Fernando Mognato de Jesus",
@@ -1924,7 +2993,22 @@
         "endereco_nascimento": [
           "Vitoria"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Tocantins, Nº 64, Soteco, Vila velha, 29106-120"
+        ],
+        "crm": [
+          "16550"
+        ],
+        "email": [
+          "mognattoo@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24 hrs"
+        ]
       },
       {
         "nome": "Isabela Bernardino Freire",
@@ -1947,7 +3031,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua da Aldeia, numero 220 casa 09"
+        ],
+        "crm": [
+          "21805"
+        ],
+        "email": [
+          "isabelafreire55@gmail.com"
+        ],
+        "telefone": [
+          "27997217585"
+        ],
+        "telefone_emergencia": [
+          "27992296282"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Luane Scherrer Juliatti",
@@ -1974,7 +3075,18 @@
         "endereco_nascimento": [
           "Lisboa"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [],
+        "crm": [
+          "21606"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "36 - 48 horas (3-4 plantões)"
+        ]
       },
       {
         "nome": "FRANCISCO PINHEIRO GOMES",
@@ -1995,7 +3107,24 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "SOLTEIRO"
-        ]
+        ],
+        "endereco": [
+          "RUA ITAQUARI 210 APTO 1101 T2"
+        ],
+        "crm": [
+          "21816"
+        ],
+        "email": [
+          "DRFRANCISCOPINHEIRO@GMAIL.COM"
+        ],
+        "telefone": [
+          "27997203040"
+        ],
+        "telefone_emergencia": [
+          "27999325465"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "FRANCISCO DE OLIVEIRA QUEIROGA",
@@ -2022,7 +3151,20 @@
         "endereco_nascimento": [
           "VITORIA - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29055360"
+        ],
+        "crm": [
+          "20186"
+        ],
+        "email": [],
+        "telefone": [
+          "27999116259"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Tayane costa Santiago",
@@ -2051,7 +3193,24 @@
         ],
         "estado_civil": [
           "casada"
-        ]
+        ],
+        "endereco": [
+          "rua Lauro Cunha freire, 20, monte belo, Vitória"
+        ],
+        "crm": [
+          "21399"
+        ],
+        "email": [],
+        "telefone": [
+          "71992140673"
+        ],
+        "telefone_emergencia": [
+          "71992132381"
+        ],
+        "tipo_contato_emergencia": [
+          "Luã"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "André Luiz Castelan da Silva",
@@ -2078,7 +3237,18 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Antonio Aleixo, 470, Horto - Vitória, Bloco G apart 303"
+        ],
+        "crm": [
+          "17.161"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bernardo Araújo",
@@ -2107,7 +3277,18 @@
         ],
         "estado_civil": [
           "solteiro"
-        ]
+        ],
+        "endereco": [
+          "Rua João da Silva Abreu, n57, ap 1401"
+        ],
+        "crm": [
+          "17937"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Ana Caroline Machado Bergami",
@@ -2134,7 +3315,20 @@
         "endereco_nascimento": [
           "Linhares - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Maria Eleonora Pereira, n 1160, Ed Recife, Ap 404, Jardim da Penha. Vitória, ES /"
+        ],
+        "crm": [
+          "18.230"
+        ],
+        "email": [
+          "anacaroline.bergami@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Sarah Prest Siquara Vieira",
@@ -2155,7 +3349,22 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua santos dumont, 117"
+        ],
+        "crm": [
+          "21808"
+        ],
+        "email": [],
+        "telefone": [
+          "27 997686094"
+        ],
+        "telefone_emergencia": [
+          "27 996573780"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "32, 22/03/2022] Dr Andre Luis: - Nome do profissional: André Luis Lopes Costa",
@@ -2182,7 +3391,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av. Talma Rodrigues, 3212"
+        ],
+        "crm": [
+          "17797"
+        ],
+        "email": [
+          "andre.luis.costa@hotmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "x"
+        ]
       },
       {
         "nome": "GABRIEL EURICO ALVES DE CASTRO",
@@ -2209,7 +3433,20 @@
         "endereco_nascimento": [
           "ALEXÂNIA - GO"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Orminda Machado Duarte - 65 , Edifício Praia do Morro- AP 604 Bairro Praia das Gaivotas - Vila Velha - ES"
+        ],
+        "crm": [
+          "14146"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "36h"
+        ]
       },
       {
         "nome": "Raul de Paula Resende Bicalho",
@@ -2236,7 +3473,20 @@
         "endereco_nascimento": [
           "Divinópolis - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "29101340"
+        ],
+        "crm": [
+          "21.354"
+        ],
+        "email": [],
+        "telefone": [
+          "(27)99262-8001"
+        ],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Bárbara Beatriz Amaral Rodrigues",
@@ -2257,7 +3507,22 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "solteira"
-        ]
+        ],
+        "endereco": [
+          "rua João Joaquim da Mota, número 357, Praia da Costa, Vila Velha"
+        ],
+        "crm": [
+          "21544"
+        ],
+        "email": [],
+        "telefone": [
+          "27 999981905"
+        ],
+        "telefone_emergencia": [
+          "27 99815-4526"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Amanda Silva Guimarães",
@@ -2284,7 +3549,22 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Goiás, 58. Itapuã, Vila Velha"
+        ],
+        "crm": [
+          "18099"
+        ],
+        "email": [
+          "guimaraessamandas@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24h"
+        ]
       },
       {
         "nome": "André Silveira da Rocha",
@@ -2313,7 +3593,25 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Rua desembargador augusto botelho"
+        ],
+        "crm": [
+          "21759"
+        ],
+        "email": [
+          "andresilveiradr@gmail.com"
+        ],
+        "telefone": [
+          "(27) 99975-4363"
+        ],
+        "telefone_emergencia": [
+          "(27) 999449363",
+          "999850-9363"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Natália Vicentini Damasceno",
@@ -2334,7 +3632,22 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteira"
-        ]
+        ],
+        "endereco": [
+          "Rua Inácio Higino, 20"
+        ],
+        "crm": [
+          "21.766"
+        ],
+        "email": [],
+        "telefone": [
+          "27997502368"
+        ],
+        "telefone_emergencia": [
+          "27992541639"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Flávia Lima Peixoto Costa",
@@ -2361,7 +3674,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Floriano Peixoto, 205 - São Judas Tadeu - Serra - ES"
+        ],
+        "crm": [
+          "10.956"
+        ],
+        "email": [],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "12h/semana (coringa)"
+        ]
       },
       {
         "nome": "Valéria Lopes Cupertino",
@@ -2386,7 +3712,22 @@
         "endereco_nascimento": [
           "Coronel Fabriciano - MG"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Av. Talma Rodrigues Ribeiro, nº 3112, Lote 9, Quadra 16, Bairro Boulevard Lagoa, Serra, ES"
+        ],
+        "crm": [
+          "17640"
+        ],
+        "email": [
+          "valerialc2@yahoo.com.br"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "Fixo (passando visita)"
+        ]
       },
       {
         "nome": "Ana Carolina De Biase Rodrigues de Jesus",
@@ -2415,6 +3756,21 @@
         ],
         "estado_civil": [
           "Solteira"
+        ],
+        "endereco": [
+          "Rua João Batista de Almeida, 121, São Judas Tadeu, Guarapari-ES, 29.200-560"
+        ],
+        "crm": [
+          "18.260"
+        ],
+        "email": [
+          "anacarolinadebiase@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": [
+          "24horas"
         ]
       },
       {
@@ -2438,7 +3794,22 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Avenida Estudante José Júlio de Souza, 2170"
+        ],
+        "crm": [
+          "21508"
+        ],
+        "email": [],
+        "telefone": [
+          "27 99232-1767"
+        ],
+        "telefone_emergencia": [
+          "27 998066721"
+        ],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Victor Hugo Ribeiro Simor",
@@ -2467,7 +3838,26 @@
         ],
         "estado_civil": [
           "Solteiro"
-        ]
+        ],
+        "endereco": [
+          "Rua astrogildo Romão dos anjos"
+        ],
+        "crm": [
+          "21569"
+        ],
+        "email": [
+          "Victoribeiros07@Gmail.com"
+        ],
+        "telefone": [
+          "(27) 997675592"
+        ],
+        "telefone_emergencia": [
+          "(27) 997675592"
+        ],
+        "tipo_contato_emergencia": [
+          "José Carlos"
+        ],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Carolina Márcia Jadijisky Tonani",
@@ -2494,7 +3884,20 @@
         "endereco_nascimento": [
           "Vitória - ES"
         ],
-        "estado_civil": []
+        "estado_civil": [],
+        "endereco": [
+          "Rua Bertino Borges, 143, Antônio Honorio, Vitória-ES"
+        ],
+        "crm": [
+          "18239"
+        ],
+        "email": [
+          "cmjtonani@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       },
       {
         "nome": "Luciano Alves da Silva",
@@ -2513,6 +3916,25 @@
         "endereco_nascimento": [],
         "estado_civil": [
           "Solteiro"
+        ],
+        "endereco": [
+          "Rua Carijós 180, Apto 304, Jardim da Penha, Vitória - ES"
+        ],
+        "crm": [
+          "21.576"
+        ],
+        "email": [],
+        "telefone": [
+          "(27) 99821-3918"
+        ],
+        "telefone_emergencia": [
+          "(27) 98151-6794"
+        ],
+        "tipo_contato_emergencia": [
+          "Uéliton"
+        ],
+        "carga_horaria_semanal": [
+          "40 ou mais"
         ]
       },
       {
@@ -2540,7 +3962,20 @@
         ],
         "estado_civil": [
           "solteiro"
-        ]
+        ],
+        "endereco": [
+          "praia do canto, rua Moacir Avidos, 487, ap 1001"
+        ],
+        "crm": [
+          "16695"
+        ],
+        "email": [
+          "hchaves.elias@gmail.com"
+        ],
+        "telefone": [],
+        "telefone_emergencia": [],
+        "tipo_contato_emergencia": [],
+        "carga_horaria_semanal": []
       }
     ],
     "cns_nao_identificados": [

@@ -2,12 +2,27 @@ import os
 import re
 import json
 import unicodedata
-from typing import Dict, List
+from dataclasses import dataclass, asdict
+from typing import Iterable, Iterator, List, Dict, Optional
+from contacts import extract_address_email_contacts
 
 FOLDER_PATH = "medico"
 output_dir = os.path.join(os.path.dirname(__file__), "output")
 
 DELIMITADOR = "---------------------------------\n\n"  # delimitador exato entre textos
+
+# ----------------------
+# Constantes / Placeholders
+# ----------------------
+PLACEHOLDER_CADASTRO = "CADASTRO nao detectado"
+PLACEHOLDER_FORMACAO = "FORMACAO PROFISSIONAL nao detectada"
+PLACEHOLDER_RECEBIMENTO = "RECEBIMENTO nao detectado"
+PLACEHOLDER_CPF = "CPF nao detectado"
+PLACEHOLDER_CNS = "CNS nao detectado"
+PLACEHOLDER_MAE = "MAE nao detectada"
+PLACEHOLDER_PAI = "PAI nao detectado"
+PLACEHOLDER_DT_NASC = "DATA_NASCIMENTO nao detectada"
+PLACEHOLDER_NOME = "NOME nao detectado"
 
 FLAGS = re.IGNORECASE | re.UNICODE | re.MULTILINE
 
@@ -18,8 +33,61 @@ QUINZE_DIGITOS_RE = re.compile(r"\d{15}")  # para localizar sequência exata de 
 FORMACAO_RE = re.compile(r"FORMA[ÇC][AÃ]O PROFISSIONAL", re.IGNORECASE)
 RECEBIMENTO_RE = re.compile(r"RECEBIMENTO", re.IGNORECASE)
 
+def extrai_secao(bloco: str) -> Dict[str, str]:
+    """Extrai seções 'cadastro', 'formacao' e 'recebimento' de um bloco de texto.
 
-def _normalizar_cpf_fragmento(fragmento: str) -> str | None:
+    Regras de corte:
+      - 'cadastro': do início até o início de 'FORMAÇÃO PROFISSIONAL'.
+        Se 'FORMAÇÃO PROFISSIONAL' não existir mas existir 'RECEBIMENTO', então
+        vai do início até 'RECEBIMENTO'. Caso nenhuma das marcas exista, é o bloco inteiro.
+      - 'formacao': inicia em 'FORMAÇÃO PROFISSIONAL' e vai até 'RECEBIMENTO'. Se não houver
+        'RECEBIMENTO', vai até o fim. Se não houver 'FORMAÇÃO PROFISSIONAL', marca como não detectado.
+      - 'recebimento': inicia em 'RECEBIMENTO' até o fim. Se não houver, marca não detectado.
+
+    Inclui as palavras-chaves (delimitadores) dentro das seções quando presentes.
+    """
+    cadastro = ""
+    formacao = None
+    recebimento = None
+
+    m_form = FORMACAO_RE.search(bloco)
+    m_receb = RECEBIMENTO_RE.search(bloco)
+
+    # Calcular fatias com base nas combinações possíveis
+    if m_form and (not m_receb or m_form.start() < m_receb.start()):
+        # Cadastro antes da formação
+        cadastro = bloco[:m_form.start()].strip()
+        # Formação até recebimento (se houver)
+        if m_receb and m_receb.start() > m_form.start():
+            formacao = bloco[m_form.start():m_receb.start()].strip()
+            recebimento = bloco[m_receb.start():].strip()
+        else:
+            formacao = bloco[m_form.start():].strip()
+    else:
+        # Não temos formação antes de recebimento ou formação ausente
+        if m_receb:
+            cadastro = bloco[:m_receb.start()].strip()
+            recebimento = bloco[m_receb.start():].strip()
+        else:
+            # Nenhuma marca encontrada: tudo é cadastro
+            cadastro = bloco.strip()
+
+    # Normalizar valores de saída garantindo presença das chaves
+    if not cadastro:
+        cadastro = bloco.strip() or PLACEHOLDER_CADASTRO
+    if formacao is None:
+        formacao = PLACEHOLDER_FORMACAO
+    if recebimento is None:
+        recebimento = PLACEHOLDER_RECEBIMENTO
+
+    return {
+        "cadastro": cadastro,
+        "formacao": formacao,
+        "recebimento": recebimento,
+    }
+
+
+def _normalizar_cpf_fragmento(fragmento: str) -> Optional[str]:
     """Recebe um fragmento (ex: '123.456.789-09'), remove não dígitos.
     Retorna somente se tiver exatamente 11 dígitos."""
     digits = re.sub(r"\D", "", fragmento)
@@ -28,7 +96,7 @@ def _normalizar_cpf_fragmento(fragmento: str) -> str | None:
     return None
 
 
-def _extrair_cpf_de_linha(linha: str) -> list[str]:
+def _extrair_cpf_de_linha(linha: str) -> List[str]:
     """Extrai possíveis CPFs de uma linha que já passou pelos filtros de conter 'cpf'
     e não conter 'pix'."""
     candidatos = []
@@ -39,7 +107,7 @@ def _extrair_cpf_de_linha(linha: str) -> list[str]:
     return candidatos
 
 
-def _encontrar_cpf_em_bloco(bloco: str) -> str | None:
+def _encontrar_cpf_em_bloco(bloco: str) -> Optional[str]:
     """Varre o bloco inteiro e retorna o primeiro CPF encontrado segundo as regras:
        - linha contém 'cpf' (case-insensitive)
        - linha NÃO contém 'pix'
@@ -60,7 +128,7 @@ def _encontrar_cpf_em_bloco(bloco: str) -> str | None:
     return None
 
 
-def _encontrar_cns_em_bloco(bloco: str) -> str | None:
+def _encontrar_cns_em_bloco(bloco: str) -> Optional[str]:
     """Procura em cada linha do bloco um CNS conforme regra:
        - a linha contém 'cns' (case-insensitive)
        - a própria linha deve conter ao menos uma sequência que, removendo não dígitos,
@@ -94,7 +162,7 @@ def _encontrar_cns_em_bloco(bloco: str) -> str | None:
     return None
 
 
-def _extrair_valor_pos_label(line: str) -> str | None:
+def _extrair_valor_pos_label(line: str) -> Optional[str]:
     """Dado uma linha, retorna o texto após o primeiro ':' se houver, senão None."""
     parts = line.split(":", 1)
     if len(parts) == 2:
@@ -103,7 +171,7 @@ def _extrair_valor_pos_label(line: str) -> str | None:
     return None
 
 
-def _encontrar_nome_mae(bloco: str) -> str | None:
+def _encontrar_nome_mae(bloco: str) -> Optional[str]:
     for raw_line in bloco.splitlines():
         line = raw_line.strip()
         if not line:
@@ -114,7 +182,7 @@ def _encontrar_nome_mae(bloco: str) -> str | None:
     return None
 
 
-def _encontrar_nome_pai(bloco: str) -> str | None:
+def _encontrar_nome_pai(bloco: str) -> Optional[str]:
     for raw_line in bloco.splitlines():
         line = raw_line.strip()
         if not line:
@@ -125,7 +193,7 @@ def _encontrar_nome_pai(bloco: str) -> str | None:
     return None
 
 
-def _normalizar_data(d: int, m: int, y: int) -> str | None:
+def _normalizar_data(d: int, m: int, y: int) -> Optional[str]:
     try:
         if y < 100:  # ano 2 dígitos
             y = 1900 + y if y >= 30 else 2000 + y
@@ -144,7 +212,7 @@ DATA_REGEXES = [
 ]
 
 
-def _encontrar_data_nascimento(bloco: str) -> str | None:
+def _encontrar_data_nascimento(bloco: str) -> Optional[str]:
     for raw_line in bloco.splitlines():
         line = raw_line.strip()
         if not line:
@@ -199,10 +267,22 @@ def _encontrar_data_nascimento(bloco: str) -> str | None:
 
 
 def _strip_accents(s: str) -> str:
+    """Remove acentos preservando demais caracteres."""
     return "".join(ch for ch in unicodedata.normalize("NFD", s) if unicodedata.category(ch) != "Mn")
 
 
-def _encontrar_nome_profissional(bloco: str) -> str | None:
+def _iter_lines(bloco: str) -> Iterator[tuple[str, str, str]]:
+    """Itera sobre linhas não vazias retornando (original, lower, lower_sem_acentos)."""
+    for raw in bloco.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        lower = line.lower()
+        lowered = _strip_accents(lower)
+        yield line, lower, lowered
+
+
+def _encontrar_nome_profissional(bloco: str) -> Optional[str]:
     """Localiza a primeira linha que representa o nome do profissional.
 
     Regra:
@@ -236,61 +316,10 @@ def _encontrar_nome_profissional(bloco: str) -> str | None:
     return None
 
 
-def extrai_secao(bloco: str) -> dict:
-    """Extrai seções 'cadastro', 'formacao' e 'recebimento' de um bloco de texto.
-
-    Regras de corte:
-      - 'cadastro': do início até o início de 'FORMAÇÃO PROFISSIONAL'.
-        Se 'FORMAÇÃO PROFISSIONAL' não existir mas existir 'RECEBIMENTO', então
-        vai do início até 'RECEBIMENTO'. Caso nenhuma das marcas exista, é o bloco inteiro.
-      - 'formacao': inicia em 'FORMAÇÃO PROFISSIONAL' e vai até 'RECEBIMENTO'. Se não houver
-        'RECEBIMENTO', vai até o fim. Se não houver 'FORMAÇÃO PROFISSIONAL', marca como não detectado.
-      - 'recebimento': inicia em 'RECEBIMENTO' até o fim. Se não houver, marca não detectado.
-
-    Inclui as palavras-chaves (delimitadores) dentro das seções quando presentes.
-    """
-    cadastro = ""
-    formacao = None
-    recebimento = None
-
-    m_form = FORMACAO_RE.search(bloco)
-    m_receb = RECEBIMENTO_RE.search(bloco)
-
-    # Calcular fatias com base nas combinações possíveis
-    if m_form and (not m_receb or m_form.start() < m_receb.start()):
-        # Cadastro antes da formação
-        cadastro = bloco[:m_form.start()].strip()
-        # Formação até recebimento (se houver)
-        if m_receb and m_receb.start() > m_form.start():
-            formacao = bloco[m_form.start():m_receb.start()].strip()
-            recebimento = bloco[m_receb.start():].strip()
-        else:
-            formacao = bloco[m_form.start():].strip()
-    else:
-        # Não temos formação antes de recebimento ou formação ausente
-        if m_receb:
-            cadastro = bloco[:m_receb.start()].strip()
-            recebimento = bloco[m_receb.start():].strip()
-        else:
-            # Nenhuma marca encontrada: tudo é cadastro
-            cadastro = bloco.strip()
-
-    # Placeholders para ausentes
-    if not cadastro:
-        cadastro = "CADASTRO nao detectado"
-    if formacao is None:
-        formacao = "FORMACAO PROFISSIONAL nao detectada"
-    if recebimento is None:
-        recebimento = "RECEBIMENTO nao detectado"
-
-    return {
-        "cadastro": cadastro,
-        "formacao": formacao,
-        "recebimento": recebimento,
-    }
 
 
-def extrair_informacoes_rg_ci(texto: str) -> dict:
+
+def extrair_informacoes_rg_ci(texto: str) -> Dict[str, List[str]]:
     """Extrai RG / UF CI / órgão emissor / data emissão / endereço nascimento de um texto de cadastro.
 
     Formato de retorno (listas com no máximo 1 item):
@@ -298,7 +327,7 @@ def extrair_informacoes_rg_ci(texto: str) -> dict:
       'rg': [...], 'uf_ci': [...], 'orgao_emissor_ci': [...], 'data_emissao_ci': [...], 'endereco_nascimento': [...]
     }
     """
-    resultado = {"rg": [], "uf_ci": [], "orgao_emissor_ci": [], "data_emissao_ci": [], "endereco_nascimento": []}
+    resultado: Dict[str, List[str]] = {"rg": [], "uf_ci": [], "orgao_emissor_ci": [], "data_emissao_ci": [], "endereco_nascimento": []}
     if not texto:
         return resultado
 
@@ -380,20 +409,23 @@ def extrair_informacoes_rg_ci(texto: str) -> dict:
         resultado["endereco_nascimento"] = [municipio]
     return resultado
 
-def _dedup(seq):
-    seen = set()
-    out = []
+def _dedup(seq: Iterable[str]) -> List[str]:
+    seen: set[str] = set()
+    out: List[str] = []
     for x in seq:
         if not x:
             continue
-        k = x.strip().casefold()
+        val = x.strip()
+        if not val:
+            continue
+        k = val.casefold()
         if k in seen:
             continue
-        out.append(x.strip())
         seen.add(k)
+        out.append(val)
     return out
 
-def extract_estado_civil(text: str) -> str:
+def extract_estado_civil(text: str) -> List[str]:
     # Normaliza NBSP e espaços múltiplos
     norm = text.replace("\xa0", " ")
     norm = re.sub(r"[ \t]+", " ", norm)
@@ -407,18 +439,24 @@ def extract_estado_civil(text: str) -> str:
 
     return estado_civil
 
-def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
+@dataclass
+class BlocoAudit:
+    cpf: str
+    nome: Optional[str] = None
+
+
+def extrair_cpfs_por_blocos(caminho: Optional[str] = None) -> Dict[str, Dict[str, List[Dict] | List | str]]:
     """Lê normalizado.txt, separa pelos delimitadores e constrói
     {"medico": {"blocos": [{"nome": "...", "cpf": "...", "texto": "..."}]}}
     """
     if caminho is None:
         caminho = os.path.join(output_dir, "normalizado.txt")
 
-    resultado = {"medico": {"blocos": []}}
-    cns_nao_detectados: list[dict] = []  # manter registro dos blocos sem CNS
-    mae_nao_detectados: list[dict] = []
-    pai_nao_detectados: list[dict] = []
-    dt_nasc_nao_detectados: list[dict] = []
+    resultado: Dict[str, Dict] = {"medico": {"blocos": []}}
+    cns_nao_detectados: List[Dict] = []  # manter registro dos blocos sem CNS
+    mae_nao_detectados: List[Dict] = []
+    pai_nao_detectados: List[Dict] = []
+    dt_nasc_nao_detectados: List[Dict] = []
     vistos: set[str] = set()
 
     try:
@@ -432,35 +470,47 @@ def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
     blocos = [b.strip() for b in conteudo.split(DELIMITADOR) if b.strip()]
 
     for bloco in blocos:
-        cpf = _encontrar_cpf_em_bloco(bloco)
-        if not cpf:
-            cpf = "CPF nao detectado"
-        else:
-            if cpf not in vistos:
-                vistos.add(cpf)
-        cns = _encontrar_cns_em_bloco(bloco)
-        if not cns:
-            cns = "CNS nao detectado"
-            cns_nao_detectados.append({"nome": _encontrar_nome_profissional(bloco) or "NOME nao detectado", "cpf": cpf})
-        nome_mae = _encontrar_nome_mae(bloco)
+
+        # Seção de cadastro
+        secoes = extrai_secao(bloco)
+        cadastro_txt = secoes.get("cadastro", "")
+
+        # CPF
+        cpf = _encontrar_cpf_em_bloco(cadastro_txt) or PLACEHOLDER_CPF
+        if cpf != PLACEHOLDER_CPF and cpf not in vistos:
+            vistos.add(cpf)
+
+        # Nome (usado em auditoria)
+        nome = _encontrar_nome_profissional(cadastro_txt) or PLACEHOLDER_NOME
+
+        # CNS
+        cns = _encontrar_cns_em_bloco(cadastro_txt) or PLACEHOLDER_CNS
+        if cns == PLACEHOLDER_CNS:
+            cns_nao_detectados.append({"nome": nome, "cpf": cpf})
+
+        # Mãe / Pai
+        nome_mae = _encontrar_nome_mae(cadastro_txt)
         if not nome_mae:
             mae_nao_detectados.append({"cpf": cpf})
-            nome_mae = "MAE nao detectada"
-        nome_pai = _encontrar_nome_pai(bloco)
+            nome_mae = PLACEHOLDER_MAE
+        nome_pai = _encontrar_nome_pai(cadastro_txt)
         if not nome_pai:
             pai_nao_detectados.append({"cpf": cpf})
-            nome_pai = "PAI nao detectado"
-        data_nasc = _encontrar_data_nascimento(bloco)
+            nome_pai = PLACEHOLDER_PAI
+
+        # Data nascimento
+        data_nasc = _encontrar_data_nascimento(cadastro_txt)
         if not data_nasc:
             dt_nasc_nao_detectados.append({"cpf": cpf})
-            data_nasc = "DATA_NASCIMENTO nao detectada"
-        nome = _encontrar_nome_profissional(bloco) or "NOME nao detectado"
+            data_nasc = PLACEHOLDER_DT_NASC
 
-        secoes = extrai_secao(bloco)
-        rg_ci = extrair_informacoes_rg_ci(secoes["cadastro"]) if secoes.get("cadastro") else {"rg":[],"uf_ci":[],"orgao_emissor_ci":[],"data_emissao_ci":[],"endereco_nascimento":[]}
-        estado_civil = extract_estado_civil(secoes["cadastro"])
+      
         
-        resultado["medico"]["blocos"].append({
+        rg_ci = extrair_informacoes_rg_ci(cadastro_txt) if cadastro_txt else {"rg":[],"uf_ci":[],"orgao_emissor_ci":[],"data_emissao_ci":[],"endereco_nascimento":[]}
+        estado_civil = extract_estado_civil(cadastro_txt)
+        moreinfo = extract_address_email_contacts(cadastro_txt) if cadastro_txt else {"endereco": [], "crm": [], "email": [], "telefone": [], "telefone_emergencia": [], "tipo_contato_emergencia": [], "carga_horaria_semanal": []}
+
+        bloco_dict = {
             "nome": nome,
             "cpf": cpf,
             "cns": cns,
@@ -476,8 +526,16 @@ def extrair_cpfs_por_blocos(caminho: str | None = None) -> dict:
             "orgao_emissor_ci": rg_ci["orgao_emissor_ci"],
             "data_emissao_ci": rg_ci["data_emissao_ci"],
             "endereco_nascimento": rg_ci["endereco_nascimento"],
-            "estado_civil": estado_civil
-        })
+            "estado_civil": estado_civil,
+            "endereco": moreinfo["endereco"],
+            "crm": moreinfo["crm"],
+            "email": moreinfo["email"],
+            "telefone": moreinfo["telefone"],
+            "telefone_emergencia": moreinfo["telefone_emergencia"],
+            "tipo_contato_emergencia": moreinfo["tipo_contato_emergencia"],
+            "carga_horaria_semanal": moreinfo["carga_horaria_semanal"],
+        }
+        resultado["medico"]["blocos"].append(bloco_dict)
 
     # Acrescenta registro auxiliar (fora do schema principal solicitado) para auditoria
     resultado["medico"]["cns_nao_identificados"] = cns_nao_detectados
@@ -500,4 +558,12 @@ if __name__ == "__main__":
         print(f"Dados (CPFs + blocos) gravados em: {cpfs_json_path}")
     except Exception as e:
         print(f"Falha ao gravar cpfs_blocos.json: {e}")
+
+    # Geração automática de Excel a partir do JSON
+    try:
+        from export_excel import json_to_excel  # import local
+        excel_out = os.path.join(output_dir, "cpfs_blocos.xlsx")
+        json_to_excel(cpfs_json_path, excel_out)
+    except Exception as e:
+        print(f"Falha ao gerar Excel: {e}")
 
